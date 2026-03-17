@@ -1,0 +1,90 @@
+/* 1. Change body to dark so the white post stands out */
+body {
+    background-color: rgb(255, 255, 255); /* Dark background like your images */
+ margin: 0px;
+}
+
+/* 2. Header and Navigation */
+#main-header {
+    background-color: #2e2d2d;
+    padding-top: 20px;
+}
+
+#main-header h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.subtitle {
+    color: #8f8b8b;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.navbar { 
+    background-color: #444; 
+    padding: 15px 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+.nav-item {
+    font-weight: bold;
+    cursor: pointer;
+    color: white; /* Make menu text white */
+}
+
+/* 3. The White Post - This will now be visible against the dark body */
+.post {
+    background-color: white !important;
+    color: #333 !important;             /* Dark text on white background */
+    width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* 4. The Featured Post - Fixed name and transparency */
+.post-featured {
+    background-color: rgb(251, 185, 92); /* Solid color, no transparency */
+    color: white;                        /* White text looks better here */
+    width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.post-title {
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.post-text {
+    line-height: 1.6;
+}
+
+/* 5. Button and Footer */
+#read-more {
+    background-color: #007bff; /* A nicer blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #2e2d2d;
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+}
