@@ -44,8 +44,8 @@ ul {
 
 /* 3. The White Post - This will now be visible against the dark body */
 .post {
-    background-color: white !important;
-    color: #333 !important;             /* Dark text on white background */
+    background-color: rgb(3, 3, 3) !important;
+    color: #ffffff !important;             /* Dark text on white background */
     width: 900px;
     margin: 40px auto;
     padding: 30px;
